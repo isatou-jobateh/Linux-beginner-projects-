@@ -1,0 +1,55 @@
+aisha_jobateh@Aisha-Jobateh:~$ mkdir Cloud-Engineer-Lab
+aisha_jobateh@Aisha-Jobateh:~$ pwd
+/home/aisha_jobateh
+aisha_jobateh@Aisha-Jobateh:~$ cd Cloud-Engineer-Lab
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab$ mkdir AWS Linux Python Goals
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab$ ls
+AWS  Goals  Linux  Python
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab$ cd AWS
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/AWS$ touch ec2.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/AWS$ echo "EC2 is a virtual server in AWS" > ec2.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/AWS$ touch s3.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/AWS$ echo "S3 stores files and objects" > s3.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/AWS$ cd ../Linux
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/Linux$ touch commands.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/Linux$ echo "pwd" "ls" "cd" "mkdir" "touch" "cat" "echo" > commands.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/Linux$ touch notes.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/Linux$ echo "Linux notes" > notes.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/Linux$ cd ../Python
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/Python$ touch practice.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/Python$ echo "def name(): name("Aisha")" > practice.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/Python$ touch practice2.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/Python$ echo "def message(): message("Hello")" > practice2.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/Python$ cd ../Goals
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/Goals$ touch career.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/Goals$ echo "Become a Junior Cloud Engineer" > career.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/Goals$ echo "Learn AWS" > career.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/Goals$ echo "Learn Linux" > career.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/Goals$ echo "Learn Python" > career.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/Goals$ cat career.txt
+Learn Python
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/Goals$ ./career.txt
+-bash: ./career.txt: Permission denied
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/Goals$ cd../AWS
+-bash: cd../AWS: No such file or directory
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/Goals$ cd ../AWS
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/AWS$ cat ec2.txt
+EC2 is a virtual server in AWS
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/AWS$ cat s3.txt
+S3 stores files and objects
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/AWS$ cd ../Linux
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/Linux$ cat commands.txt
+pwd ls cd mkdir touch cat echo
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/Linux$ cat notes.txt
+Linux notes
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/Linux$ cd ../Python
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/Python$ cat practice.txt
+def name(): name(Aisha)
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/Python$ cat practice2.txt
+def message(): message(Hello)
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/Python$ cd ../Goals
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/Goals$ bash career.txt
+career.txt: line 1: Learn: command not found
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/Goals$ cat career.txt
+Learn Python
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Engineer-Lab/Goals$ cd

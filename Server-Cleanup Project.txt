@@ -1,0 +1,18 @@
+aisha_jobateh@Aisha-Jobateh:~$ mkdir Server-Cleanup
+aisha_jobateh@Aisha-Jobateh:~$ cd Server-Cleanup
+aisha_jobateh@Aisha-Jobateh:~/Server-Cleanup$ touch logs.txt
+aisha_jobateh@Aisha-Jobateh:~/Server-Cleanup$ touch temp.txt
+aisha_jobateh@Aisha-Jobateh:~/Server-Cleanup$ touch backup.txt
+aisha_jobateh@Aisha-Jobateh:~/Server-Cleanup$ touch ec2.txt
+aisha_jobateh@Aisha-Jobateh:~/Server-Cleanup$ touch old-config.txt
+aisha_jobateh@Aisha-Jobateh:~/Server-Cleanup$ mkdir archive
+aisha_jobateh@Aisha-Jobateh:~/Server-Cleanup$ mv backup.txt old-config.txt archive/
+aisha_jobateh@Aisha-Jobateh:~/Server-Cleanup$ mv logs.txt server-logs.txt
+aisha_jobateh@Aisha-Jobateh:~/Server-Cleanup$ rm temp.txt
+aisha_jobateh@Aisha-Jobateh:~/Server-Cleanup$ pwd
+/home/aisha_jobateh/Server-Cleanup
+aisha_jobateh@Aisha-Jobateh:~/Server-Cleanup$ ls
+archive  ec2.txt  server-logs.txt
+aisha_jobateh@Aisha-Jobateh:~/Server-Cleanup$ ls archive
+backup.txt  old-config.txt
+aisha_jobateh@Aisha-Jobateh:~/Server-Cleanup$

@@ -1,0 +1,75 @@
+aisha_jobateh@Aisha-Jobateh:~$ mkdir Cloud-Home-Lab
+aisha_jobateh@Aisha-Jobateh:~$ cd Cloud-Home-Lab
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab$ mkdir AWS Linux Python Backups
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab$ ls
+AWS  Backups  Linux  Python
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab$ cd AWS
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/AWS$ touch ec2.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/AWS$ echo "EC2 is a virtual server" > ec2.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/AWS$ touch s3.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/AWS$ echo "S3 stores objects" > s3.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/AWS$ cd ../Linux
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/Linux$ touch commands.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/Linux$ echo "pwd shows current directory" > commands.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/Linux$ touch notes.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/Linux$ cd ../Python
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/Python$ touch practice.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/Python$ echo "Day 1 practice" > practice.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/Python$ touch practice2.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/Python$ cd ../AWS
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/AWS$ cp ec2.txt ec2-backup.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/AWS$ ls
+ec2-backup.txt  ec2.txt  s3.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/AWS$ mv ec2-backup.txt Backups/
+mv: cannot move 'ec2-backup.txt' to 'Backups/': Not a directory
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/AWS$ cd ../Backups
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/Backups$ mv ec2-backup.txt Backups/
+mv: cannot stat 'ec2-backup.txt': No such file or directory
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/Backups$ mv ec2.txt Backups/
+mv: cannot stat 'ec2.txt': No such file or directory
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/Backups$ cd ../AWS
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/AWS$ mv ec2.txt Backups/
+mv: cannot move 'ec2.txt' to 'Backups/': Not a directory
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/AWS$ ls
+ec2-backup.txt  ec2.txt  s3.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/AWS$ ec2-backup.txt ../Backups/
+ec2-backup.txt: command not found
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/AWS$ mv ec2-backup.txt ../Backups/
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/AWS$ ls
+ec2.txt  s3.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/AWS$
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/AWS$ ls ../Backups
+ec2-backup.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/AWS$ cd ../Linux
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/Linux$ mv notes.txt linux-notes.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/Linux$ ls
+commands.txt  linux-notes.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/Linux$ cd ../Python
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/Python$ rm practice2.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/Python$ ls
+practice.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/Python$ pwd
+/home/aisha_jobateh/Cloud-Home-Lab/Python
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/Python$ cd Linux
+-bash: cd: Linux: No such file or directory
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/Python$ cd ../Linux
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/Linux$ cd ../Backups
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/Backups$ pwd
+/home/aisha_jobateh/Cloud-Home-Lab/Backups
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/Backups$ ls
+ec2-backup.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab/Backups$ cd ~
+aisha_jobateh@Aisha-Jobateh:~$ pwd
+/home/aisha_jobateh
+aisha_jobateh@Aisha-Jobateh:~$ cd Cloud-Home-Lab
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab$ ls AWS
+ec2.txt  s3.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab$ ls Linux
+commands.txt  linux-notes.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab$ ls Python
+practice.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab$ ls Bsckups
+ls: cannot access 'Bsckups': No such file or directory
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab$ ls Backups
+ec2-backup.txt
+aisha_jobateh@Aisha-Jobateh:~/Cloud-Home-Lab$

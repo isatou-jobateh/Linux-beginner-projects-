@@ -1,6 +1,6 @@
 Linux learning logs 
 
-This repository contains Linux practices logs , commands used , what i have learned  and challenges faced .  I learn Linux for Cloud Engineering.
+This repository contains Linux practices logs , commands used , what i have learned  and challenges faced .
 
 About
 

@@ -1,0 +1,26 @@
+aisha_jobateh@Aisha-Jobateh:~$ mkdir Personal-Organization-Lab
+aisha_jobateh@Aisha-Jobateh:~$ cd Personal-Organization-Lab
+aisha_jobateh@Aisha-Jobateh:~/Personal-Organization-Lab$ touch journal.txt
+aisha_jobateh@Aisha-Jobateh:~/Personal-Organization-Lab$ chmod 700 journal.txt
+aisha_jobateh@Aisha-Jobateh:~/Personal-Organization-Lab$ touch goals.txt
+aisha_jobateh@Aisha-Jobateh:~/Personal-Organization-Lab$ chmod 644 goals.txt
+aisha_jobateh@Aisha-Jobateh:~/Personal-Organization-Lab$ touch backup.sh
+aisha_jobateh@Aisha-Jobateh:~/Personal-Organization-Lab$ chmod 755 backup.sh
+aisha_jobateh@Aisha-Jobateh:~/Personal-Organization-Lab$ touch private-diary.txt
+aisha_jobateh@Aisha-Jobateh:~/Personal-Organization-Lab$ chmod 600 private-diary.txt
+aisha_jobateh@Aisha-Jobateh:~/Personal-Organization-Lab$ ls -l
+total 0
+-rwxr-xr-x 1 aisha_jobateh aisha_jobateh 0 Jun 24 12:29 backup.sh
+-rw-r--r-- 1 aisha_jobateh aisha_jobateh 0 Jun 24 12:29 goals.txt
+-rwx------ 1 aisha_jobateh aisha_jobateh 0 Jun 24 12:28 journal.txt
+-rw------- 1 aisha_jobateh aisha_jobateh 0 Jun 24 12:30 private-diary.txt
+aisha_jobateh@Aisha-Jobateh:~/Personal-Organization-Lab$ chmod o-r goals.txt
+aisha_jobateh@Aisha-Jobateh:~/Personal-Organization-Lab$ chmod u+x backup.sh
+aisha_jobateh@Aisha-Jobateh:~/Personal-Organization-Lab$ chmod o-rwx private-diary.txt
+aisha_jobateh@Aisha-Jobateh:~/Personal-Organization-Lab$ ls -l
+total 0
+-rwxr-xr-x 1 aisha_jobateh aisha_jobateh 0 Jun 24 12:29 backup.sh
+-rw-r----- 1 aisha_jobateh aisha_jobateh 0 Jun 24 12:29 goals.txt
+-rwx------ 1 aisha_jobateh aisha_jobateh 0 Jun 24 12:28 journal.txt
+-rw------- 1 aisha_jobateh aisha_jobateh 0 Jun 24 12:30 private-diary.txt
+aisha_jobateh@Aisha-Jobateh:~/Personal-Organization-Lab$

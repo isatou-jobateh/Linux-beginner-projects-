@@ -1,0 +1,30 @@
+aisha_jobateh@Aisha-Jobateh:~$ mkdir Team-Handover
+aisha_jobateh@Aisha-Jobateh:~$ cd Team-Handover
+aisha_jobateh@Aisha-Jobateh:~/Team-Handover$ touch report.txt
+aisha_jobateh@Aisha-Jobateh:~/Team-Handover$ touch meeting-notes.txt
+aisha_jobateh@Aisha-Jobateh:~/Team-Handover$ ls -l
+total 0
+-rw-r--r-- 1 aisha_jobateh aisha_jobateh 0 Jun 26 14:48 meeting-notes.txt
+-rw-r--r-- 1 aisha_jobateh aisha_jobateh 0 Jun 26 14:48 report.txt
+aisha_jobateh@Aisha-Jobateh:~/Team-Handover$ sudo groupadd engineers
+[sudo: authenticate] Password:
+aisha_jobateh@Aisha-Jobateh:~/Team-Handover$ sudo adduser aisha
+New password:
+Retype new password:
+passwd: password updated successfully
+Changing the user information for aisha
+Enter the new value, or press ENTER for the default
+        Full Name []:
+        Room Number []:
+        Work Phone []:
+        Home Phone []:
+        Other []:
+Is the information correct? [Y/n] y
+aisha_jobateh@Aisha-Jobateh:~/Team-Handover$ sudo usermod -aG engineers aisha
+aisha_jobateh@Aisha-Jobateh:~/Team-Handover$ sudo chown aisha report.txt
+aisha_jobateh@Aisha-Jobateh:~/Team-Handover$ sudo chown aisha:engineers meeting-notes.txt
+aisha_jobateh@Aisha-Jobateh:~/Team-Handover$ ls -l
+total 0
+-rw-r--r-- 1 aisha engineers     0 Jun 26 14:48 meeting-notes.txt
+-rw-r--r-- 1 aisha aisha_jobateh 0 Jun 26 14:48 report.txt
+aisha_jobateh@Aisha-Jobateh:~/Team-Handover$
